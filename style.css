@@ -1,0 +1,77 @@
+body{
+    display:flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+*{
+    font-family: 'Titillium Web', sans-serif;
+}
+.flex{
+    display:flex;
+}
+#form{
+    padding:30px;
+    background-color:rgb(31, 30, 30);
+    border-radius: 10px;
+}
+.numinp{
+    text-align: right;
+    outline:none;
+    font-size:30px;
+    border:none;
+    color:blueviolet;    
+    margin-bottom: 25px;
+    background-color:rgb(31, 30, 30);
+}
+
+.bc-bv{
+    background-color:blueviolet;  
+}
+
+.button1{
+    flex:1;
+    padding-top:20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    
+    background-color: rgb(34, 33, 33);
+    color: white;
+    margin: 5px;
+    border-radius: 50%;
+}
+.button2{
+    margin: 5px;
+    flex:1;
+    padding-top:20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    border:1px solid blueviolet;
+    background-color: blueviolet;
+    color:white;
+    border-radius:50%;
+}
+
+
+.button1:hover {
+    /* borer:1px solid white; */
+    box-shadow:2px 2px 10px inset black;
+}
+
+.button2:hover {
+    /* borer:1px solid white; */
+    box-shadow:2px 2px 10px inset black;
+}
+
+.button2:focus{
+    animation: tra 2s ease 1;    
+}
+
+@keyframes tra{
+    0%{
+    }
+    50%{
+        transform:scale(0.95,0.95);
+    }
+    100%{
+    }
+}
